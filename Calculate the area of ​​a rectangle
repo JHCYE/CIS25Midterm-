@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float length; float width;//Make sure the function accepts two floating point parameters
+	cout << "Calculate area of a rectangle"<< endl;
+   cout << "Enter the length: ";
+   cin >> length;//Input the length
+   cout << "Enter the width: " ;
+   cin >> width;//Input the width
+   float calculateArea = length * width;//Calculate the area of ​​a rectangle
+   cout << "The area of a rectangle is: " << calculateArea << endl;
+   return 0;
+}
