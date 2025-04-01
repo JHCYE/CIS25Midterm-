@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int number = 10;int i = 0;//Define the variable 'i'
+    if (number == 20)//Conditions should use "==" (equal to) instead of "=" (assignment)
+    {
+        cout << "Number is 20" << endl;
+    }
+    else {
+        cout << "Number is not 20" << endl;
+    }
+
+    for ( i = 0; i <= 5; i++);
+    cout << i << endl;//'i' in the original code is not defined.
+
+    return 0;
+}
