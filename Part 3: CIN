@@ -1,0 +1,18 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+	string name; int age; int number;
+	cout << "Please enter your name; " << endl;
+	cin >> name;
+	cout << "Please enter your age: " << endl;
+	cin >> age;
+	cout << "Please enter your favorite number: " << endl;
+	cin >> number;
+	cout << "Name: " << name << ". Your age is: " << age << ". Your favorite number is: " << number;
+
+	return 0;
+}
+
