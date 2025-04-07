@@ -1,0 +1,46 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    cout << "Simple calculator" << endl;
+    while (true) {
+        double num1, num2;
+        char op;
+        cout << "Enter the first number: ";
+        cin >> num1;
+        cout << "Enter the second number: ";
+        cin >> num2;
+        cout << "Enter the operation (+, -, *, /, %): ";
+        cin >> op;
+        //Calculation function
+        switch (op) {
+        case '+'://Addition
+            cout << "Result: " << fixed << setprecision(1) << num1 + num2 << endl;
+            break;
+        case '-'://Subtraction
+            cout << "Result: " << fixed << setprecision(1) << num1 - num2 << endl;
+            break;
+        case '*'://Times
+            cout << "Result: " << fixed << setprecision(1) << num1 * num2 << endl;
+            break;
+        case '/'://Division
+            if (num2 > 0) {
+                cout << "Result: " << fixed << setprecision(1) << num1 / num2 << endl;
+            }
+            else {
+                cout << "Error" << endl;
+            }
+            break;
+        case '%'://Remainder after division
+            cout << "Result: " << fixed << setprecision(1)
+                << static_cast<int>(num1) % static_cast<int>(num2) << endl;
+            break;
+        default:
+            cout << "Error" << endl;
+            break;
+        }
+        cout << endl;
+    }
+    return 0;
+}
