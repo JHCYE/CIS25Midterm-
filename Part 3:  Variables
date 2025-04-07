@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    // Declare and initialize variables of different data types
+    int intVar = 1;
+    float floatVar = 3.1415;
+    char charVar = 'A';
+    string stringVar = "Have a good day";
+
+    // Print their values
+    cout << "Integer value: " << intVar << endl;
+    cout << "Float value: " << floatVar << endl;
+    cout << "Char value: " << charVar << endl;
+    cout << "String value: " << stringVar << endl;
+
+    return 0;
+}
