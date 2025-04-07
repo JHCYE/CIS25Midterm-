@@ -12,4 +12,6 @@
   In the program of Part 4: A leap year, we need to determine the formula for calculating leap years (numbers that are divisible by 4 but not by 100, or divisible by 400). When the year entered meets this condition, it is a leap year (), so logical operators (&& and ||) are needed to compare the conditions. Then use "ifelse" to judge the condition. When the condition is true, print "This year is a leap year", and when the condition is false, print "This year is not a leap year".  
   In the program of Part 4: Logical Operators, I used "if else" and nested if statements to compare the size of the three integers entered by the user. The program first declares the data type as "int", and then uses relational operators to compare the numbers.  
   ## Part 5: Switch Case
-  
+  In the program of Part 5: Switch Case, I used the "switch case" judgment statement to control the logic, and used five arithmetic operators (+, -, *, /, %) for users to choose the calculation symbol. In the program, I used the "ifelse" judgment statement to avoid the program crash caused by number2 equal to 0 when using division, and then used the "while loop" to allow the calculator to continue calculating repeatedly.  
+  ## Part 6: Debugging
+  In Part 6: Debugging, the original code did not define 'i', so I declared the data type of 'i' and initialized it. In addition, the if condition should use "==" (equal to) instead of "=" (assignment). After changing to "==", the code can run correctly.
